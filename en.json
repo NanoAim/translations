@@ -141,7 +141,9 @@
                     "channel_description_changed": "{{user}} changed the channel description",
                     "channel_icon_changed": "{{user}} changed the channel icon",
                     "channel_ownership_changed": "{{from}} gave {{to}} group ownership",
-                    "registered_at": "Registered {{time}}"
+                    "registered_at": "Registered {{time}}",
+                    "message_pinned": "Message pinned by {{user}}",
+                    "message_unpinned": "Message unpinned by {{user}}"
                 },
                 "start": {
                     "group": "This is the start of your conversation.",
