@@ -130,6 +130,7 @@
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Couldn't load message.",
                     "no_sending": "You don't have permission to send messages in this channel.",
+                    "no_everyone_mention": "You don't have permission to mention everyone in this channel.",
                     "blocked_messages": "{{count}} blocked messages",
                     "blocked_user": "Blocked User",
                     "sent_file": "Sent an attachment",
@@ -969,6 +970,10 @@
         "MoveMembers": {
             "t": "Move Members",
             "d": "Allows members to move others between voice channels."
+        },
+        "MentionEveryone": {
+            "t": "Mention Everyone",
+            "d": "Allows members to use @everyone mentions to notify all members in a channel."
         },
         "Video": {
             "d": "Allows members to stream video in a voice channel.",
