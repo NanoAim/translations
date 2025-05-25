@@ -1,7 +1,7 @@
 {
     "general": {
         "about": "About",
-        "tos": "Terms of Servic",
+        "tos": "Terms of Service",
         "privacy": "Privacy Policy",
         "image_by": "Image by",
         "loading": "Loading…",
@@ -11,32 +11,21 @@
         "unavailable": "Unavailable",
         "learn_more": "Learn more"
     },
-    "actions": {
-        "submit": "Submit"
-    },
     "login": {
         "title": "Login",
-        "welcome": "Welcome!",
-        "subtitle": "Sign into Revolt",
-        "welcome2": "Hello!",
-        "subtitle2": "Create an account",
         "register": "Register",
         "username": "Username",
         "email": "Email",
         "password": "Password",
-        "new_password": "New Password",
-        "totp": "Authenticator App",
-        "recovery": "Recovery Code",
         "invite": "Invite Code",
         "current_password": "Current Password",
-        "log_out_other": "Log out of all other sessions",
         "enter": {
             "username": "Enter your preferred username.",
             "email": "Please enter your email.",
             "password": "Enter your password.",
-            "new_password": "Enter a new password.",
             "invite": "Enter your invite code.",
-            "current_password": "Enter your current password."
+            "current_password": "Enter your current password.",
+            "new_password": "Enter a new password."
         },
         "forgot": "Forgot your password?",
         "reset": "Reset password",
@@ -49,13 +38,10 @@
         "resend": "Resend verification",
         "cancel": "Cancel request",
         "check_mail": "Check your mail!",
-        "email_delay": "We've sent you a verification email. Please allow up to 10 minutes for it to arrive.",
-        "check_spam": "Please check your spam folder if you can't find it",
+        "email_delay": "Please allow up to 10 minutes for it to arrive.",
+        "check_spam": "Please check your spam folder if you don't see it",
         "open_mail_provider": "Open {{provider}}",
         "successful_registration": "Successfully registered!",
-        "verifying_account": "Verifying your account…",
-        "verified_account": "Your account has been verified!",
-        "verified_continue": "Continue to login",
         "error": {
             "create": "Failed to register!",
             "login": "Failed to login!",
@@ -63,17 +49,28 @@
             "resend": "Failed to resend!",
             "verify": "Failed to verify!"
         },
-        "unofficial_instance": "Third-party instance."
+        "welcome2": "Hello!",
+        "subtitle2": "Create an account",
+        "welcome": "Welcome!",
+        "subtitle": "Sign into Revolt",
+        "unofficial_instance": "Third-party instance.",
+        "totp": "Authenticator App",
+        "recovery": "Recovery Code",
+        "verifying_account": "Verifying your account…",
+        "verified_account": "Your account has been verified!",
+        "verified_continue": "Continue to login",
+        "new_password": "New Password",
+        "log_out_other": "Log out of all other sessions"
     },
     "app": {
         "status": {
             "online": "Online",
             "idle": "Idle",
-            "focus": "Focus",
             "busy": "Do Not Disturb",
             "invisible": "Invisible",
             "offline": "Offline",
-            "reconnect": "Reconnect"
+            "reconnect": "Reconnect",
+            "focus": "Focus"
         },
         "navigation": {
             "tabs": {
@@ -83,23 +80,6 @@
                 "unreads": "Unreads",
                 "saved": "Saved Notes"
             }
-        },
-        "home": {
-            "directs": "Direct Messages",
-            "join-testers": "Join the testers server",
-            "join-testers_desc": "You can report issues and discuss improvements with us directly here.",
-            "goto-testers": "Go to the testers server",
-            "goto-testers_desc": "You can report issues and discuss improvements with us directly here.",
-            "donate": "Donate to Revolt",
-            "donate_desc": "Support the project by donating - thank you!",
-            "feedback": "Give feedback on Revolt",
-            "feedback_desc": "Let us know how we can improve our app by giving us feedback.",
-            "settings": "Open settings",
-            "settings-tooltip": "You can also right-click the user icon in the top left, or left click it if you're already home.",
-            "discover": "Discover Revolt",
-            "discover_desc": "Find a community based on your hobbies or interests.",
-            "group": "Create a group",
-            "group_desc": "Invite all of your friends, some cool bots, and throw a big party."
         },
         "main": {
             "categories": {
@@ -115,16 +95,6 @@
                 "uploading_file": "Uploading…",
                 "failed_upload": "Failed to upload!",
                 "attached_file": "Attached {{filename}}",
-                "reactions": {
-                    "others_reacted": "{{userlist}} and {{count}} others reacted",
-                    "unknown_reacted": "{{count}} people reacted",
-                    "single_reacted": "1 person reacted",
-                    "people_reacted": "{{people}} reacted"
-                },
-                "reply": {
-                    "replying": "Replying to",
-                    "toggle": "Toggle author ping"
-                },
                 "typing": {
                     "single": "{{user}} is typing…",
                     "multiple": "{{userlist}} and {{user}} are typing…",
@@ -145,7 +115,7 @@
                 },
                 "start": {
                     "group": "This is the start of your conversation.",
-                    "saved": "This is the start of your notes."
+                    "saved": "This is where your notes start."
                 },
                 "voice": {
                     "connected": "Voice connected",
@@ -157,17 +127,18 @@
                     "viewing_old": "Viewing older messages",
                     "jump_present": "Jump to present",
                     "jump_beginning": "Jump to the beginning",
-                    "new_messages": "New messages since {{time_ago}}",
                     "spoiler_attachment": "Spoiler",
                     "failed_load": "Couldn't load message.",
-                    "not_loaded": "Message not loaded, click to jump",
                     "no_sending": "You don't have permission to send messages in this channel.",
-                    "timed_out": "You are timed out for {{time}}.",
+                    "no_everyone_mention": "You don't have permission to mention everyone in this channel.",
                     "blocked_messages": "{{count}} blocked messages",
                     "blocked_user": "Blocked User",
                     "sent_file": "Sent an attachment",
                     "sent_multiple_files": "Sent multiple attachments",
-                    "load_file": "Load file"
+                    "new_messages": "New messages since {{time_ago}}",
+                    "load_file": "Load file",
+                    "timed_out": "You are timed out for {{time}}.",
+                    "not_loaded": "Message not loaded, click to jump"
                 },
                 "nsfw": {
                     "channel": {
@@ -179,12 +150,6 @@
                 "unknown_user": "<Unknown User>",
                 "edited": "(edited)",
                 "bot": "Bot",
-                "bridge": "bridge",
-                "bridged": "Message was sent on another platform",
-                "new_to_revolt": "New to Revolt",
-                "new_to_server": "New to this server",
-                "team": "Official Communication",
-                "user_timed_out": "User is timed out for {{time}}.",
                 "notifications": {
                     "default": "Use Default",
                     "all": "All Messages",
@@ -204,6 +169,22 @@
                     "title": "Oops, there's nothing here!",
                     "nochannels": "This server has no channels, or you don't have access to any.",
                     "nochannel": "No channel"
+                },
+                "reply": {
+                    "replying": "Replying to",
+                    "toggle": "Toggle author ping"
+                },
+                "bridge": "bridge",
+                "user_timed_out": "User is timed out for {{time}}.",
+                "bridged": "Message was sent on another platform",
+                "team": "Official Communication",
+                "new_to_revolt": "New to Revolt",
+                "new_to_server": "New to this server",
+                "reactions": {
+                    "others_reacted": "{{userlist}} and {{count}} others reacted",
+                    "unknown_reacted": "{{count}} people reacted",
+                    "single_reacted": "1 person reacted",
+                    "people_reacted": "{{people}} reacted"
                 }
             },
             "groups": {
@@ -218,12 +199,12 @@
                 "description": "Server Description",
                 "channel_name": "Channel Name",
                 "channel_type": "Channel Type",
-                "category_name": "Category Name",
                 "channel_description": "Channel Description",
                 "custom_banner": "Custom Banner",
                 "owner": "Server Owner",
                 "text_channel": "Text Channel",
-                "voice_channel": "Voice Channel"
+                "voice_channel": "Voice Channel",
+                "category_name": "Category Name"
             }
         },
         "settings": {
@@ -247,22 +228,21 @@
                     "2fa": {
                         "title": "Two-factor Authentication",
                         "description": "Add an extra layer of security by enabling 2FA on your account.",
-                        "view_recovery": "View Recovery Codes",
-                        "view_recovery_long": "View and download your 2FA recovery codes.",
-                        "generate_recovery": "Generate Recovery Codes",
-                        "generate_recovery_long": "Get ready to use 2FA by setting up a recovery method.",
                         "add_auth": "Add Authenticator",
                         "remove_auth": "Remove Authenticator",
-                        "two_factor_on": "Two-factor authentication is currently on.",
-                        "two_factor_off": "You have not enabled two-factor authentication!"
+                        "two_factor_off": "You haven't enabled two-factor authentication!",
+                        "view_recovery": "View Recovery Codes",
+                        "view_recovery_long": "View and download your 2FA recovery codes.",
+                        "generate_recovery": "Generate Backup Codes",
+                        "generate_recovery_long": "Get ready to use 2FA by setting up a backup method.",
+                        "two_factor_on": "Two-factor authentication is currently on."
                     },
                     "manage": {
                         "title": "Account Management",
-                        "description": "Disable or delete your account at any time. Both actions will log you out of your active sessions.",
+                        "description": "Disable or delete your account at any time. This will log you out and fully delete your account, including your chat history and friends.",
                         "disable": "Disable Account",
+                        "delete": "Delete Account",
                         "disable_description": "You won't be able to access your account unless you contact support - however, your data will not be deleted.",
-                        "delete": "Mark Account for Deletion",
-                        "delete_still_own_servers": "Cannot delete account until servers are deleted or transferred",
                         "delete_description": "Your account and all of your data (including your messages and friends list) will be queued for deletion. A confirmation email will be sent - you can cancel this within 7 days by contacting support."
                     }
                 },
@@ -286,59 +266,27 @@
                 "audio": {
                     "title": "Voice Settings",
                     "input_device": "Microphone",
-                    "output_device": "Speaker / Headset",
+                    "output_device": "Speaker / Headphones",
                     "tip_retry": "You didn't give Revolt permission to access your microphone. Please {{retryBtn}}.",
-                    "tip_grant_permission": "You need to grant permission to access audio settings.",
                     "device_label_NA": "N/A",
-                    "button_retry": "retry",
+                    "button_retry": "Retry",
+                    "tip_grant_permission": "You need to grant permission to access audio settings.",
                     "button_grant": "Grant permission"
                 },
                 "appearance": {
                     "title": "Appearance",
                     "theme": "Theme",
-                    "colours": {
-                        "title": "Colours"
-                    },
-                    "emoji": {
-                        "title": "Emoji"
-                    },
-                    "fonts": {
-                        "title": "Fonts"
-                    },
-                    "advanced_options": {
-                        "title": "Advanced Options"
-                    },
                     "display": {
                         "default": "Default",
                         "compact": "Compact",
                         "default_description": "Beautiful, sleek and modern.",
                         "compact_description": "Good old IRC."
                     },
-                    "discover": {
-                        "title": "Discover Themes",
-                        "description": "Browse themes made by the community"
-                    },
                     "color": {
                         "light": "light",
                         "dark": "dark"
                     },
-                    "accent_selector": "Accent Colour",
-                    "appearance_options": {
-                        "title": "Appearance Options",
-                        "show_send": "Always show Send Message button",
-                        "show_send_desc": "If this is disabled, the Send Message button will only appear on mobile.",
-                        "show_account_age": "Always show account age next to join messages",
-                        "show_account_age_desc": "If this is disabled, the account age will only be shown for new users."
-                    },
-                    "theme_options": {
-                        "title": "Theme Options",
-                        "follow": "Follow system theme",
-                        "follow_desc": "If this is enabled, you won't be able to change your theme or use a custom theme.",
-                        "seasonal": "Seasonal Theme",
-                        "seasonal_desc": "Displays effects in the home tab during holiday seasons.",
-                        "transparency": "Transparency Effects",
-                        "transparency_desc": "Enables transparency effects throughout the app."
-                    },
+                    "accent_selector": "Accent Color",
                     "emoji_pack": "Emoji Pack",
                     "message_display": "Message Display",
                     "advanced": "Advanced Options",
@@ -352,13 +300,38 @@
                     "font": "Font",
                     "mono_font": "Monospace Font Selector",
                     "ligatures": "Font Ligatures",
-                    "ligatures_desc": "For supported fonts, ligatures combine characters together - for example, turning -> into an arrow."
-                },
-                "accessibility": {
-                    "title": "Accessibility",
-                    "reduced_motion": "Reduced Motion",
-                    "descriptions": {
-                        "reduced_motion": "If this is enabled, animations and motion effects won't play or will be less intense."
+                    "ligatures_desc": "For supported fonts, ligatures combine characters together - for example, turning -> into an arrow.",
+                    "theme_options": {
+                        "title": "Theme Options",
+                        "follow_desc": "if this is enabled, you won’t be able to change your theme or use a custom one.",
+                        "seasonal": "Seasonal Theme",
+                        "follow": "Follow system theme",
+                        "transparency": "Transparency Effects",
+                        "transparency_desc": "Enables transparency effects (like frosted glass) throughout the app.",
+                        "seasonal_desc": "Displays effects in the home tab during holiday seasons."
+                    },
+                    "discover": {
+                        "title": "Discover Themes",
+                        "description": "Browse themes made by the community"
+                    },
+                    "appearance_options": {
+                        "title": "Appearance Options",
+                        "show_send": "Always show Send Message button",
+                        "show_send_desc": "If disabled, the Send Message button will only appear on mobile.",
+                        "show_account_age": "Always show account age next to join messages",
+                        "show_account_age_desc": "If disabled, the account age will only be shown for new users."
+                    },
+                    "colours": {
+                        "title": "Colors"
+                    },
+                    "emoji": {
+                        "title": "Emoji"
+                    },
+                    "fonts": {
+                        "title": "Fonts"
+                    },
+                    "advanced_options": {
+                        "title": "Advanced options"
                     }
                 },
                 "notifications": {
@@ -368,8 +341,8 @@
                     "enable_push": "Enable Push Notifications",
                     "sounds": "Sounds",
                     "descriptions": {
-                        "enable_desktop": "If this is enabled, you will receive notifications while the app is open.",
-                        "enable_push": "If this is enabled, you will receive notifications when you're offline."
+                        "enable_desktop": "This will give you notifications while your app is open.",
+                        "enable_push": "Enable to receive notifications when you're offline."
                     },
                     "sound": {
                         "message": "Message Received",
@@ -386,13 +359,13 @@
                 },
                 "sync": {
                     "title": "Sync",
-                    "options": "Sync Options",
                     "categories": "Sync Categories",
                     "descriptions": {
-                        "appearance": "This will sync appearance options, such as your chosen emoji pack and message density.",
-                        "theme": "This will sync your chosen theme, colours and any custom CSS.",
+                        "appearance": "This will sync options such as emoji packs and message density.",
+                        "theme": "This will sync your chosen theme, colors and any custom CSS.",
                         "locale": "This will sync your currently chosen language."
-                    }
+                    },
+                    "options": "Sync Options"
                 },
                 "native": {
                     "title": "Desktop Settings"
@@ -401,12 +374,6 @@
                     "title": "Experiments",
                     "features": "Available Features",
                     "not_available": "No experiments are available at this time."
-                },
-                "plugins": {
-                    "title": "Plugins",
-                    "wip": "Warning: this feature is still in development.",
-                    "delete_plugin": "Delete",
-                    "no_plugins": "No plugins are currently installed."
                 },
                 "donate": {
                     "title": "Donate"
@@ -417,119 +384,56 @@
                     "create_bot": "Create a Bot",
                     "copy_invite": "Copy Invite Link",
                     "add": "Add Bot",
-                    "unique_id": "This is a unique identifier for your bot. This is not the bot's token.",
                     "token": "Token",
-                    "public_bot_tip": "This bot is public. Anyone can invite it.",
-                    "private_bot_tip": "This bot is private. Only you can invite it.",
+                    "public_bot_tip": "Bot is public. Anyone can invite it.",
+                    "private_bot_tip": "Bot is private. Only you can invite it.",
                     "public_bot": "Public Bot",
-                    "profile": "Bot profile",
-                    "public_bot_desc": "If this is enabled, other users can add this bot to servers and group messages.",
+                    "public_bot_desc": "Whether to allow other users to invite this bot.",
                     "interactions_url": "Interactions URL",
-                    "reserved": "Note: this field is reserved for the future."
-                },
-                "theme_shop": {
-                    "title": "Theme Shop",
-                    "description": "Browse hundreds of themes, created and curated by the community.",
-                    "search": "Search themes…",
-                    "category": {
-                        "saved": "Saved",
-                        "manage": "Manage saved",
-                        "new": "New this week",
-                        "default": "Default themes",
-                        "highest": "Highest rated",
-                        "viewall": "View all"
-                    },
-                    "active": "Currently active",
-                    "use": "Use theme",
-                    "by": "by"
-                },
-                "keybinds": {
-                    "title": "Keybinds",
-                    "description": "View and set keybinds",
-                    "search": "Search keybinds…",
-                    "add_keybind": "Add new keybind",
-                    "edit_keybind": "Edit keybind",
-                    "remove_keybind": "Remove keybind",
-                    "reset_keybind": "Reset keybind to {{keybind}}",
-                    "category": {
-                        "navigation": "Navigation",
-                        "messaging": "Messaging",
-                        "advanced": "Advanced"
-                    },
-                    "action": {
-                        "navigate_channel_up": {
-                            "title": "Navigate to the previous channel",
-                            "description": "Navigate to the previous channel."
-                        },
-                        "navigate_channel_down": {
-                            "title": "Navigate to the next channel",
-                            "description": "Navigate to the next channel."
-                        },
-                        "navigate_server_up": {
-                            "title": "Navigate to the previous server",
-                            "description": "Navigate to the previous server."
-                        },
-                        "navigate_server_down": {
-                            "title": "Navigate to the next server",
-                            "description": "Navigate to the next server."
-                        },
-                        "messaging_edit_previous_message": {
-                            "title": "Edit previous message",
-                            "description": "Edit the previously sent message in the currently loaded messaging view."
-                        },
-                        "auto_complete_up": {
-                            "title": "Previous Autocomplete Selection",
-                            "description": "Move the autocomplete selection to the previous one."
-                        },
-                        "auto_complete_down": {
-                            "title": "Next Autocomplete Selection",
-                            "description": "Move the autocomplete selection to the next one."
-                        },
-                        "auto_complete_select": {
-                            "title": "Confirm Autocomplete Selection",
-                            "description": "Confirm the current autocompletion selection."
-                        },
-                        "input_submit": {
-                            "title": "Submit Input",
-                            "description": "An advanced keybind that is typically used to submit the current input.\nThis may include submitting a message, submitting an edit to a message, submitting a search, etc.."
-                        },
-                        "input_cancel": {
-                            "title": "Cancel Input",
-                            "description": "An advanced keybind that is typically used to cancel the current input.\nThis may include cancelling a message edit, removing a queued image, or similar scenarios."
-                        },
-                        "input_force_submit": {
-                            "title": "Force Submit Input",
-                            "description": "An advanced keybind that is typically used to forcefully submit the current input, ignoring some checks or other keybinds.\nThis may include submitting a message instead of confirming the autocomplete selection."
-                        },
-                        "messaging_scroll_to_bottom": {
-                            "title": "Scroll to bottom of messages",
-                            "description": "Scrolls to the bottom of the messaging view."
-                        },
-                        "messaging_mark_channel_read": {
-                            "title": "Mark channel as read",
-                            "description": "Marks the current channel as read."
-                        },
-                        "navigate_previous_context": {
-                            "title": "Navigate to the previous context",
-                            "description": "An advanced keybind that is typically used to close the setting page, a modal, or a popup and return back to the previous context."
-                        },
-                        "developer_toggle_all_experiments": {
-                            "title": "Toggle experiment safe mode",
-                            "description": "This will enable / disable all experiments at once."
-                        }
-                    }
+                    "reserved": "Note: This field is reserved for the future.",
+                    "unique_id": "This is a unique identifier for your bot. This is not the bot's token.",
+                    "profile": "Bot Profile"
                 },
                 "feedback": {
                     "title": "Feedback",
-                    "description": "Submit feedback",
                     "suggest": "Submit feature suggestion",
                     "suggest_desc": "Suggest new Revolt features on GitHub discussions.",
                     "issue": "Create a new issue",
-                    "issue_desc": "To help us more easily triage issues, you can create an issue on GitHub.",
+                    "issue_desc": "To help us more easily find and assess issues, you can create an issue on GitHub.",
                     "bug": "Bug Tracker",
-                    "bug_desc": "View currently active bug reports here."
+                    "bug_desc": "View currently active bug reports here.",
+                    "description": "Submit feedback"
                 },
-                "logOut": "Log Out"
+                "logOut": "Log Out",
+                "theme_shop": {
+                    "title": "Theme Shop",
+                    "category": {
+                        "highest": "Highest rated",
+                        "viewall": "View all",
+                        "manage": "Manage saved",
+                        "new": "New this week",
+                        "default": "Default themes",
+                        "saved": "Saved"
+                    },
+                    "active": "Currently active",
+                    "description": "Browse hundreds of themes, created and curated by the community.",
+                    "search": "Search themes…",
+                    "use": "Use theme",
+                    "by": "by"
+                },
+                "plugins": {
+                    "title": "Plugins",
+                    "delete_plugin": "Delete",
+                    "wip": "Warning: This feature is still in development.",
+                    "no_plugins": "No plugins are currently installed."
+                },
+                "accessibility": {
+                    "title": "Accessibility",
+                    "reduced_motion": "Reduced Motion",
+                    "descriptions": {
+                        "reduced_motion": "If this is enabled, animations and motion effects won't play or will be less intense."
+                    }
+                }
             },
             "channel_pages": {
                 "overview": {
@@ -550,12 +454,6 @@
                     "name": "Server Name",
                     "description": "Channel Description",
                     "system_messages": "System Message Channels"
-                },
-                "management": {
-                    "title": "User Management"
-                },
-                "customisation": {
-                    "title": "Customisation"
                 },
                 "members": {
                     "title": "Members"
@@ -580,6 +478,12 @@
                 "categories": {
                     "title": "Categories"
                 },
+                "management": {
+                    "title": "User Management"
+                },
+                "customisation": {
+                    "title": "Customization"
+                },
                 "emojis": {
                     "title": "Emojis",
                     "upload": "Upload Emoji"
@@ -587,16 +491,16 @@
             },
             "tips": {
                 "account": {
-                    "a": "Want to customise your public profile?",
+                    "a": "Looking to customize your public profile?",
                     "b": "Head over to your profile settings."
                 },
                 "languages": {
-                    "a": "Are we missing a language you want?",
-                    "b": "Help us out by contributing more translations."
+                    "a": "Missing a language you want?",
+                    "b": "Help contribute more translations."
                 },
                 "sessions": {
                     "a": "If you see an unknown session on the list,",
-                    "b": "secure your account by changing your password and setting up 2FA."
+                    "b": "secure your account by changing your password and using 2FA."
                 }
             },
             "permissions": {
@@ -605,14 +509,14 @@
                 "channel": "Channel Permissions",
                 "create_role": "Create a new role",
                 "role_name": "Role Name",
-                "role_colour": "Role Colour",
-                "role_options": "Role Options",
-                "role_ranking": "Role Ranking",
                 "delete_role": "Delete Role",
                 "hoist_role": "Hoist Role",
                 "hoist_desc": "Display this role above others.",
                 "title": "Permissions for {{role}}",
-                "edit_title": "Edit Permissions"
+                "edit_title": "Edit Permissions",
+                "role_colour": "Role Color",
+                "role_options": "Role Options",
+                "role_ranking": "Role Ranking"
             }
         },
         "special": {
@@ -637,10 +541,6 @@
                 "connecting": "Connecting…",
                 "reconnecting": "Reconnecting…"
             },
-            "server-badges": {
-                "official": "Official Server",
-                "verified": "Verified Server"
-            },
             "modals": {
                 "error": "An error occurred!",
                 "clipboard": {
@@ -648,18 +548,17 @@
                     "https": "You are currently not in a HTTPS context.",
                     "copy": "Manual Copy:"
                 },
-                "confirm": "Confirm action",
                 "signed_out": "You were signed out!",
                 "token_reveal": "{{name}}'s Token",
                 "onboarding": {
                     "welcome": "Welcome to",
-                    "pick": "Pick a username that you want people to be able to find you by. This can be changed later in your user settings."
+                    "pick": "Pick a username that you want people to be able to find you by, this can be changed later in settings."
                 },
                 "prompt": {
                     "confirm_leave": "Leave {{name}}?",
                     "confirm_leave_long": "You won't be able to rejoin unless you are re-invited.",
                     "confirm_close_dm": "Close conversation with {{name}}?",
-                    "confirm_close_dm_long": "You can re-open it later, but it will disappear on both sides.",
+                    "confirm_close_dm_long": "You can re-open it later but it will disappear on both sides.",
                     "confirm_delete": "Delete {{name}}?",
                     "confirm_delete_long": "Once it's deleted, there's no going back.",
                     "confirm_delete_message_long": "Are you sure you want to delete this?",
@@ -679,55 +578,79 @@
                     "change": {
                         "username": "Change your username",
                         "email": "Change your email",
-                        "password": "Change your password",
-                        "display_name": "Change your display name"
+                        "password": "Change your password"
                     },
                     "failed": "Failed to change!"
-                },
-                "mfa": {
-                    "recovery_codes": "Your recovery codes",
-                    "save_codes": "Please save these to a safe location.",
-                    "confirm": "Please confirm this action using the selected method.",
-                    "select_method": "Please select a method to authenticate your request.",
-                    "enable_totp": "Enable authenticator app",
-                    "prompt_totp": "Please scan or use the token below in your authenticator app.",
-                    "enter_code": "Enter Code"
-                },
-                "changelogs": {
-                    "title": "Changelogs",
-                    "description": "Read about updates to Revolt.",
-                    "older": "View older updates"
-                },
-                "out_of_date": {
-                    "title": "Your client is out of date!",
-                    "description": "It must be updated in order to work with recent changes.",
-                    "version": "Your client is at {{client}}, but the server requires {{server}}.",
-                    "ignore": "Ignore update",
-                    "attempting": "Attempting to update…"
                 },
                 "external_links": {
                     "title": "External links can be dangerous!",
                     "short": "Are you sure you want to go to:",
                     "trust_domain": "Trust this domain"
                 },
+                "actions": {
+                    "ok": "Ok",
+                    "ban": "Ban",
+                    "kick": "Kick",
+                    "save": "Save",
+                    "hide": "Hide",
+                    "edit": "Edit",
+                    "block": "Block",
+                    "close": "Close",
+                    "leave": "Leave",
+                    "back": "Go back",
+                    "remove": "Remove",
+                    "delete": "Delete",
+                    "create": "Create",
+                    "reveal": "Reveal",
+                    "update": "Update",
+                    "cancel": "Cancel",
+                    "preview": "Preview",
+                    "reload": "Reload App",
+                    "continue": "Continue",
+                    "send_email": "Send Email",
+                    "confirm": "Confirm",
+                    "done": "Done",
+                    "reset": "Reset",
+                    "report": "Report",
+                    "dont_block": "Don't block"
+                },
                 "sessions": {
-                    "title": "Are you sure you want to clear your sessions?",
                     "short": "You cannot undo this action.",
-                    "accept": "Remove all sessions"
+                    "accept": "Remove all sessions",
+                    "title": "Are you sure you want to clear your sessions?"
+                },
+                "changelogs": {
+                    "description": "Read about updates of Revolt.",
+                    "older": "View older updates",
+                    "title": "Changelogs"
+                },
+                "confirm": "Confirm action",
+                "mfa": {
+                    "recovery_codes": "Your recovery codes",
+                    "save_codes": "Please save these to a safe location.",
+                    "confirm": "Please confirm using a selected method.",
+                    "select_method": "Please select a method to authenticate your request.",
+                    "enable_totp": "Enable authenticator app",
+                    "prompt_totp": "Please scan or use the token below in your authentication app.",
+                    "enter_code": "Enter Code"
+                },
+                "out_of_date": {
+                    "title": "Your client is out of date!",
+                    "description": "It must be updated in order to work with recent changes.",
+                    "version": "Your client is at {{client}}, whereas the server requires the server {{server}}.",
+                    "ignore": "Ignore updated",
+                    "attempting": "Trying to update…"
                 },
                 "report": {
+                    "no_reason": "No reason specified / other reason",
                     "message": "Report Message",
                     "by_name": "Report {{name}}",
                     "reason": "Reason",
-                    "reported": "Reported",
-                    "thank_you": "Thank you for helping to keep Revolt safe. We will review your report as soon as possible.",
-                    "block_user": "Would you like to block this user?",
                     "additional_context": "Additional Information",
-                    "no_reason": "No reason specified / other reason",
                     "content_reason": {
                         "Illegal": "Content breaks one or more laws",
-                        "PromotesHarm": "Content promotes harm to others or self",
                         "SpamAbuse": "This is spam or platform abuse",
+                        "PromotesHarm": "Content promotes harm to others or self",
                         "Malware": "This is malware",
                         "Harassment": "This is harassment or abuse targeted at another user"
                     },
@@ -737,38 +660,10 @@
                         "Impersonation": "This user is impersonating someone else",
                         "BanEvasion": "This user is evading a ban",
                         "Underage": "This user is not old enough to have an account"
-                    }
-                },
-                "actions": {
-                    "ok": "OK",
-                    "ban": "Ban",
-                    "done": "Done",
-                    "kick": "Kick",
-                    "save": "Save",
-                    "hide": "Hide",
-                    "edit": "Edit",
-                    "block": "Block",
-                    "close": "Close",
-                    "leave": "Leave",
-                    "reset": "Reset",
-                    "back": "Go back",
-                    "remove": "Remove",
-                    "delete": "Delete",
-                    "report": "Report",
-                    "create": "Create",
-                    "reveal": "Reveal",
-                    "update": "Update",
-                    "cancel": "Cancel",
-                    "preview": "Preview",
-                    "confirm": "Confirm",
-                    "reload": "Reload App",
-                    "continue": "Continue",
-                    "send_email": "Send Email",
-                    "dont_block": "Don't block"
-                },
-                "edit_keybind": {
-                    "title": "Edit keybind for {{action}}",
-                    "placeholder": "Press keys to record"
+                    },
+                    "reported": "Reported",
+                    "thank_you": "Thank you for helping to keep Revolt safe. We will review your report as soon as possible.",
+                    "block_user": "Would you like to block this user?"
                 }
             },
             "popovers": {
@@ -787,12 +682,12 @@
                         "connections": "Connections"
                     },
                     "badges": {
-                        "founder": "Founder",
                         "translator": "Translator",
                         "supporter": "Supporter",
+                        "responsible_disclosure": "Responsibly Disclosed Security Issue(s)",
+                        "early_adopter": "Early Adopter",
                         "moderation": "Platform Moderation",
-                        "responsible_disclosure": "Responsibly Disclosed Security Issues",
-                        "early_adopter": "Early Adopter"
+                        "founder": "Founder"
                     }
                 },
                 "user_picker": {
@@ -803,9 +698,9 @@
                     "failed": "Failed to create a bot!"
                 },
                 "server_identity": {
-                    "title": "Change identity on {{server}}",
                     "nickname": "Nickname",
-                    "avatar": "Avatar"
+                    "title": "Change identity on {{server}}",
+                    "avatar": "User photo"
                 }
             },
             "requires_online": "You need to be online to view this.",
@@ -815,7 +710,11 @@
                 "accept": "Accept Invite",
                 "user_count": "{{member_count}} users",
                 "invalid": "Invalid invite!",
-                "invalid_desc": "The invite may not exist, or you don't have permission to join."
+                "invalid_desc": "The invite may not exist or you don't have permission to join."
+            },
+            "server-badges": {
+                "official": "Official Server",
+                "verified": "Verified Server"
             }
         },
         "context_menu": {
@@ -831,15 +730,12 @@
             "message_user": "Message",
             "view_profile": "View profile",
             "mark_as_read": "Mark as read",
-            "mark_unread": "Mark as unread",
             "retry_message": "Retry send",
             "cancel_message": "Cancel send",
             "reply_message": "Reply",
             "quote_message": "Quote message",
             "edit_message": "Edit message",
-            "report_message": "Report message",
             "delete_message": "Delete message",
-            "make_owner": "Give group ownership",
             "remove_member": "Remove from group",
             "kick_member": "Kick member",
             "ban_member": "Ban member",
@@ -854,21 +750,16 @@
             "block_user": "Block user",
             "unblock_user": "Unblock user",
             "add_friend": "Add friend",
-            "accept_friend": "Accept friend request",
             "remove_friend": "Remove friend",
-            "reject_friend": "Reject friend request",
-            "cancel_friend": "Cancel friend request",
-            "report_user": "Report user",
+            "cancel_friend": "Cancel request",
             "custom_status": "Custom status",
             "clear_status": "Clear status",
             "set_custom_status": "Set a custom status",
             "leave_group": "Leave group",
             "leave_server": "Leave server",
             "close_dm": "Close DM",
-            "report_server": "Report server",
             "delete_server": "Delete server",
             "edit_identity": "Edit identity",
-            "edit_your_identity": "Edit your identity",
             "delete_channel": "Delete channel",
             "create_channel": "Create channel",
             "create_category": "Create category",
@@ -876,10 +767,33 @@
             "open_notification_options": "Notification options",
             "open_channel_settings": "Channel settings",
             "open_server_settings": "Server settings",
-            "open_group_settings": "Group settings"
+            "open_group_settings": "Group settings",
+            "mark_unread": "Mark as unread",
+            "make_owner": "Transfer Group Ownership",
+            "report_message": "Report message",
+            "report_user": "Report user",
+            "report_server": "Report server"
         },
         "permissions": {
             "required": "Permissions required"
+        },
+        "home": {
+            "join-testers": "Join the testers server",
+            "goto-testers": "Go to the testers server",
+            "donate": "Donate to Revolt",
+            "feedback": "Give feedback on Revolt",
+            "settings": "Open settings",
+            "settings-tooltip": "You can also right-click the user icon in the top left, or left click it if you're already home.",
+            "social": "Find servers & bots",
+            "directs": "Direct Messages",
+            "join-testers_desc": "You can report issues and discuss improvements with us directly here.",
+            "goto-testers_desc": "You can report issues and discuss improvements with us directly here.",
+            "donate_desc": "Support the project by donating - thank you!",
+            "feedback_desc": "Let us know how we can improve our app by giving us feedback.",
+            "discover": "Discover Revolt",
+            "discover_desc": "Find a community based on your hobbies or interests.",
+            "group": "Create a group",
+            "group_desc": "Invite all of your friends, some cool bots, and throw a big party."
         }
     },
     "quantities": {
@@ -888,8 +802,8 @@
             "many": "{{count}} Members"
         },
         "dropFiles": {
-            "one": "Drop a file",
-            "many": "Drop {{count}} files"
+            "many": "Drop {{count}} files",
+            "one": "Drop a file"
         }
     },
     "dayjs": {
@@ -900,8 +814,8 @@
         "nextWeek": "dddd [at] {{time}}",
         "defaults": {
             "date_separator": "/",
-            "date_format": "traditional",
-            "twelvehour": "no"
+            "date_format": "simplified",
+            "twelvehour": "yes"
         }
     },
     "notifications": {
@@ -947,35 +861,23 @@
         "ProbeError": "Failed to get file metadata.",
         "IoError": "Server encountered an I/O error.",
         "UnsupportedBrowser": "Browser is missing support for this feature.",
-        "DeniedNotification": "You denied notification access. Check page settings.",
+        "DeniedNotification": "You denied notification access, check page settings.",
         "CompromisedPassword": "This password is compromised.",
         "ReachedMaximumBots": "You've reached the maximum amount of bots.",
-        "AudioPermissionBlock": "No access to your microphone. Please check your browser's configuration.",
+        "AudioPermissionBlock": "No access to your microphone, please check your browser's configuration.",
         "DiscriminatorChangeRatelimited": "Too many tag changes."
     },
     "shortcuts": {
         "ctrlc": "Ctrl + C"
     },
     "permissions": {
-        "ManageChannels": {
+        "ManageChaAWDADWnnels": {
             "t": "Manage Channels",
             "d": "Allows members to create, edit and delete channels."
         },
         "ManageServer": {
             "t": "Manage Server",
             "d": "Allows members to change this server's name, description, icon and other related information."
-        },
-        "ManagePermissions": {
-            "t": "Manage Permissions",
-            "d": "Allows members to change permissions for channels and roles with a lower ranking."
-        },
-        "ManageRole": {
-            "t": "Manage Roles",
-            "d": "Allows members to create, edit and delete roles with a lower rank than theirs, and modify role permissions on channels."
-        },
-        "ManageCustomisation": {
-            "t": "Manage Customisation",
-            "d": "Allows members to create, edit and delete emojis."
         },
         "KickMembers": {
             "t": "Kick Members",
@@ -984,14 +886,6 @@
         "BanMembers": {
             "t": "Ban Members",
             "d": "Allows members to permanently remove members from this server."
-        },
-        "TimeoutMembers": {
-            "t": "Timeout Members",
-            "d": "Allows members to temporarily prevent users from interacting with the server."
-        },
-        "AssignRoles": {
-            "t": "Assign Roles",
-            "d": "Allows members to assign roles below their own rank to other members."
         },
         "ChangeNickname": {
             "t": "Change Nickname",
@@ -1003,19 +897,11 @@
         },
         "ChangeAvatar": {
             "t": "Change Avatar",
-            "d": "Allows members to change their avatar on this server."
+            "d": "Allows members to change their server avatar on this server."
         },
         "RemoveAvatars": {
             "t": "Remove Avatars",
             "d": "Allows members to remove the server avatars of other members on this server."
-        },
-        "ViewChannel": {
-            "t": "View Channel",
-            "d": "Allows members to view any channels they have this permission on."
-        },
-        "ReadMessageHistory": {
-            "t": "Read Message History",
-            "d": "Allows members to read the message history of this channel."
         },
         "SendMessage": {
             "t": "Send Messages",
@@ -1025,21 +911,21 @@
             "t": "Manage Messages",
             "d": "Allows members to delete messages sent by other members."
         },
-        "ManageWebhooks": {
-            "t": "Manage Webhooks",
-            "d": "Allows members to control webhooks in a channel."
-        },
         "ManageChannel": {
             "t": "Manage Channels",
             "d": "Allows members to edit or delete a channel."
+        },
+        "VoiceCall": {
+            "t": "Voice Call",
+            "d": "Allows members to join voice channels."
         },
         "InviteOthers": {
             "t": "Invite Others",
             "d": "Allows members to invite other users to a channel."
         },
-        "SendEmbeds": {
-            "t": "Send Embeds",
-            "d": "Allows members to send embedded content, whether from links or custom text embeds."
+        "EmbedLinks": {
+            "t": "Embed Links",
+            "d": "Allows members to show embedded content on links they post in text channels."
         },
         "UploadFiles": {
             "t": "Upload Files",
@@ -1049,34 +935,77 @@
             "t": "Masquerade",
             "d": "Allows members to change their name and avatar per-message."
         },
-        "React": {
-            "t": "Use Reactions",
-            "d": "Allows members to react to messages."
+        "ManageRole": {
+            "t": "Manage Roles",
+            "d": "Allows members to create, edit and delete roles with a lower rank than theirs. Also allows them to modify role permissions on channels."
+        },
+        "ViewChannel": {
+            "t": "View Channel",
+            "d": "Allows members to view any channels they have this permission on."
+        },
+        "ManagePermissions": {
+            "t": "Manage Permissions",
+            "d": "Allows members to change permissions for channels and roles with a lower ranking."
+        },
+        "ReadMessageHistory": {
+            "t": "Read Message History",
+            "d": "Allows members to read the message history of this channel."
         },
         "Connect": {
             "t": "Connect",
             "d": "Allows members to connect to a voice channel."
         },
-        "Speak": {
-            "t": "Speak",
-            "d": "Allows members to speak in a voice channel."
+        "ManageWebhooks": {
+            "t": "Manage Webhooks",
+            "d": "Allows members to control webhooks in a channel."
+        },
+        "SendEmbeds": {
+            "t": "Send Embeds",
+            "d": "Allows members to send embedded content, whether from links or custom text embeds."
+        },
+        "DeafenMembers": {
+            "d": "Allows members to deafen others in a voice channel.",
+            "t": "Deafen Members"
+        },
+        "MoveMembers": {
+            "t": "Move Members",
+            "d": "Allows members to move others between voice channels."
+        },
+        "MentionEveryone": {
+            "t": "Mention Everyone",
+            "d": "Allows members to use @everyone mentions to notify all members in a channel."
         },
         "Video": {
-            "t": "Video",
-            "d": "Allows members to stream video in a voice channel."
+            "d": "Allows members to stream video in a voice channel.",
+            "t": "Video"
         },
         "MuteMembers": {
             "t": "Mute Members",
             "d": "Allows members to mute others in a voice channel."
         },
-        "DeafenMembers": {
-            "t": "Deafen Members",
-            "d": "Allows members to deafen others in a voice channel."
+        "TimeoutMembers": {
+            "t": "Timeout Members",
+            "d": "Allows members to temporarily prevent users from interacting with the server."
         },
-        "MoveMembers": {
-            "t": "Move Members",
-            "d": "Allows members to move others between voice channels."
+        "AssignRoles": {
+            "t": "Assign Roles",
+            "d": "Allows members to assign roles below their own rank to other members."
+        },
+        "Speak": {
+            "t": "Speak",
+            "d": "Allows members to speak in a voice channel."
+        },
+        "ManageCustomisation": {
+            "t": "Manage Customization",
+            "d": "Allows members to create, edit and delete emojis."
+        },
+        "React": {
+            "t": "Use Reactions",
+            "d": "Allows members to react to messages."
         }
+    },
+    "actions": {
+        "submit": "Submit"
     },
     "keys": {
         "Escape": {
