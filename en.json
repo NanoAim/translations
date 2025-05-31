@@ -164,6 +164,7 @@
                     "failed_load": "Couldn't load message.",
                     "not_loaded": "Message not loaded, click to jump",
                     "no_sending": "You don't have permission to send messages in this channel.",
+                    "no_everyone_mention": "You don't have permission to mention everyone in this channel.",
                     "timed_out": "You are timed out for {{time}}.",
                     "blocked_messages": "{{count}} blocked messages",
                     "blocked_user": "Blocked User",
@@ -1081,6 +1082,10 @@
         "MoveMembers": {
             "t": "Move Members",
             "d": "Allows members to move others between voice channels."
+        },
+        "MentionEveryone": {
+            "t": "Mention Everyone",
+            "d": "Allows members to mention everyone in a channel."
         }
     },
     "keys": {
